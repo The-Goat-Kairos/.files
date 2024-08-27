@@ -1,4 +1,4 @@
-sudo apt install git vim lua5.1 lua5.4 nodejs npm python3 ruby ripgrep luarocks
+sudo apt install git vim lua5.1 lua5.4 nodejs npm python3 ruby ripgrep luarocks neofetch
 sudo apt add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
