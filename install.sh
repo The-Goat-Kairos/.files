@@ -8,4 +8,4 @@ sudo apt-get install -y dotnet-sdk-7.0
 dotnet tool install -g git-credential-manager
 export PATH="$PATH:/home/kairos/.dotnet/tools"
 git-credential-manager configure
-gsettings set org.gnome.shell.extesions.dash-to-dock background-opacity 0.15
+gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.15
