@@ -12,3 +12,13 @@ proj() {
 
 	ls	
 }
+
+runbuild() {
+	if [ -z "$1" ]; then
+		cmake -S "$PWD" -B build
+		cmake --build build
+	else
+		cmake -S "$1" -B build
+		cmake --build build
+	fi
+}
