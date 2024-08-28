@@ -124,3 +124,4 @@ export NVM_DIR="$HOME/.nvm"
 
 export XDG_CONFIG_HOME=/home/kairos/.config/
 export PATH="/home/kairos/Downloads/android-studio-2023.1.1.28-linux/android-studio/bin:$PATH"
+export GCM_CREDENTIAL_STORE=gpg
