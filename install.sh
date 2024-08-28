@@ -1,4 +1,4 @@
-sudo apt install pass git vim lua5.1 lua5.4 nodejs npm python3 ruby ripgrep luarocks
+sudo apt install pass git vim lua5.1 lua5.4 nodejs npm python3 ruby ripgrep luarocks neofetch
 sudo apt add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
@@ -12,7 +12,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.15
 export GCM_CREDENTIAL_STORE=gpg
 git config --global credential.credentialStore gpg
 git config pull.rebase false
-
 echo "Remember to git config --global user.name and user.email"
 gpg --full-generate-key
 echo "pass init *key*"
