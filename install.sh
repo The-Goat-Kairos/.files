@@ -11,6 +11,7 @@ git-credential-manager configure
 gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.15
 export GCM_CREDENTIAL_STORE=gpg
 git config --global credential.credentialStore gpg
+git config pull.rebase false
 
 echo "Remember to git config --global user.name and user.email"
 gpg --full-generate-key
